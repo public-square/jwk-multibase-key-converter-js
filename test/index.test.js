@@ -2,12 +2,12 @@ import * as jmkc from "../"
 
 // establish test values
 const testAlg = 'ES256K';
-const testMbase = 'zQ3shRMUDsuR12dhT5zysSQ54ek54prn7sSbXmrosdBGJ4eaF';
+const testMbase = 'zQ3shokFTS3brHcDQrn82RUDfCZESWL1ZdCEJwekUDPQiYBme';
 const testJwk = {
-    kty: 'EC',
-    x: 'OpUMi44Gxsm1-gaOdLN8t0o_Qn8zlPj9ewCC1_mK-SQ',
-    y: 'zivOA9VjtGpv4D3irg6Wzo__onTZ5BAcGu2-eLgo_ug',
-    crv: 'secp256k1'
+    'kty': 'EC',
+    'crv': 'secp256k1',
+    'x': 'h0wVx_2iDlOcblulc8E5iEw1EYh5n1RYtLQfeSTyNc0',
+    'y': 'O2EATIGbu6DezKFptj5scAIRntgfecanVNXxat1rnwE'
 }
 
 // test mbase to JWK

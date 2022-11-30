@@ -2,12 +2,12 @@ import { toJwk, toMbase } from "../../lib/converters/ES256K.js"
 
 // establish test values
 const testAlg = 'ES256K';
-const testMbase = 'zQ3shRMUDsuR12dhT5zysSQ54ek54prn7sSbXmrosdBGJ4eaF';
+const testMbase = 'zQ3shtxV1FrJfhqE1dvxYRcCknWNjHc3c5X1y3ZSoPDi2aur2';
 const testJwk = {
-    kty: 'EC',
-    x: 'OpUMi44Gxsm1-gaOdLN8t0o_Qn8zlPj9ewCC1_mK-SQ',
-    y: 'zivOA9VjtGpv4D3irg6Wzo__onTZ5BAcGu2-eLgo_ug',
-    crv: 'secp256k1'
+    'kty': 'EC',
+    'crv': 'secp256k1',
+    'x': '1LjPGVO9OOqfeaUcT9S-Ml_5wQOybbSQ0SGgMgG9U0M',
+    'y': 'aq-OS5tX6WqaY6fDHtATYwbIUijr8PvcGWd-FnCNQBM'
 }
 
 // test mbase to JWK
